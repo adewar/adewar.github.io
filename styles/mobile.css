@@ -11,7 +11,3 @@ body {
 ul.posts span.seperator {
 	display:none;
 }
-
-ul.posts a {
-	display:block;
-}
