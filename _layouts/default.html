@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-     <title>
-       {% if page.title %}
-         {{ page.title }} - 
-       {% endif %}
-       Alasdair Dewar
-     </title>
-     <meta name="author" content="Alasdair Dewar" />
-     {% if page.summary %}
-       <meta namne="description" content="{{ page.summary }}" />
-     {% endif %}
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+        {% if page.title %}
+            {{ page.title }} - 
+        {% endif %}
+        Alasdair Dewar
+    </title>
+    <meta name="author" content="Alasdair Dewar" />
+    {% if page.summary %}
+      <meta namne="description" content="{{ page.summary }}" />
+    {% endif %}
+
+    <link rel="stylesheet" href="/styles/syntax.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/styles/screen.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/styles/tablet.css" type="text/css" media="screen and (min-width:651px) and (max-width: 1024px), screen and (min-device-width: 768px) and (max-device-width: 1024px)" />
+    <link rel="stylesheet" href="/styles/mobile.css" type="text/css" media="handheld, screen and (max-width: 650px), screen and (max-device-width: 480px)" />
+
 
      {% for css in page.css %}
        <link rel="stylesheet" href="{{ css }}" type="text/css" />
