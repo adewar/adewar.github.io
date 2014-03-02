@@ -15,3 +15,7 @@ ul.posts span.seperator {
 ul.posts a {
 	display:block;
 }
+
+ul.posts blockquote a {
+    display: inline;
+}
