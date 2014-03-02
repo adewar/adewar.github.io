@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -9,12 +8,10 @@
        {% endif %}
        Alasdair Dewar
      </title>
-     <meta name="author" content="Elijah Miller" />
+     <meta name="author" content="Alasdair Dewar" />
      {% if page.summary %}
        <meta namne="description" content="{{ page.summary }}" />
      {% endif %}
-
-     <link rel="stylesheet" href="/stylesheets/default.css" type="text/css" />
 
      {% for css in page.css %}
        <link rel="stylesheet" href="{{ css }}" type="text/css" />
@@ -27,8 +24,20 @@
       <div id="content">
         {{ content }}
       </div>
+        <div class="footer">
+            <div class="contact">
+                <p>
+                Alasdair Dewar
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    <a href="http://github.com/adewar">github.com/adewar</a><br />
+                    <a href="http://twitter.com/alasdairdewar">twitter.com/alasdairdewar</a><br />
+                </p>
+            </div>
 
-      <div class="clear"></div>
+        </div>
 
     </div>
 
@@ -36,7 +45,5 @@
       <script type="text/javascript" src="{{ js }}"></script>
     {% endfor %}
 
-
   </body>
 </html>
-
