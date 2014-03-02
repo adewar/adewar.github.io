@@ -78,27 +78,31 @@ blockquote p {
 /*****************************************************************************/
 
 .site {
-    font-size: 110%;
-    text-align: justify;
-    width: 728px;
-    margin: 3em auto 2em auto;
-    line-height: 1.5em;
+font-size: 110%;
+text-align: justify;
+width: 728px;
+margin: 3em auto 2em auto;
+line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6, .comments {
-    text-align: left;
+text-align: left;
 }
 
 .title {
     color: #d80;
     font-weight: bold;
     margin-bottom: 1em;
-    text-decoration: none;
-    font-size: 140%
+    font-size: 140%;
 }
 
-.title a:hover {
-    color: black;
+.site .title a {
+    color: #d80;
+    text-decoration: none;
+}
+
+.site .title a:hover {
+color: black;
 }
 
 .site .meta {
