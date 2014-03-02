@@ -52,7 +52,14 @@ font: 100%;
 }
 
 blockquote {
-margin-left:1em;
+    margin-left:1em;
+    color: #777;
+    background-color: #eee;
+    font-size: 90%;
+}
+
+blockquote a {
+    display: inline;
 }
 
 ::selection {

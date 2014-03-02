@@ -15,12 +15,3 @@ ul.posts span.seperator {
 ul.posts a {
 	display:block;
 }
-
-ul.posts blockquote {
-	font-size: 90%;
-    color: #888;
-}
-
-ul.posts blockquote a {
-	display:inline;
-}
